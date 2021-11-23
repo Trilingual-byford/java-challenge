@@ -1,7 +1,8 @@
 ### How to use this spring-boot project
 
-- Install packages with `mvn package`
-- Run `mvn spring-boot:run` for starting the application (or use your IDE)
+- Install packages with `./gradlew build`
+- Run `./gradlew bootRun` for starting the application (or use your IDE)
+- Run `./gradlew test` to run the test for the application
 
 Application (with the embedded H2 database) is ready to be used ! You can access the url below for testing it :
 
@@ -34,19 +35,15 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - use java 8
 
 
-#### What we will look for
-- Readability of your code
-- Documentation
-- Comments in your code 
-- Appropriate usage of spring boot
-- Appropriate usage of packages
-- Is the application running as expected
-- No performance issues
+#### What I did to this project
+- Refactoring the project to a Gradle base project
+- Updated the readme file about  
+- Add web layer test to the project
+- Setup security config for the project
+- Replaced system output with logger
 
-#### Your experience in Java
+#### My experience in Java
 
-Please let us know more about your Java experience in a few sentences. For example:
-
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
+- I have 4 years experience in Java and I started to use Spring Boot alone with kotlin from last year.
+- I'm not an expert in Spring Boot.But I'm be able to fix bug and resolve problem by document reading and source code analyzing. 
+- I know Spring Boot to some extends and can it to meet project requirement.
